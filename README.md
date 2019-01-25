@@ -3,31 +3,3 @@
 
 * 应用程序demo：[参考文档](https://www.cnblogs.com/EasonJim/p/7649047.html)
 
-* 启动类中加注解：@EnableApolloConfig
-
-* 配置：
-```properties
-server.port=8080
-
-app.id=apollo-demo
-
-apollo.meta=http://192.168.245.128:8080
-
-apollo.bootstrap.enabled = true
-
-apollo.bootstrap.namespaces = application
-```
-
-* maven配置
-```xml
-<dependency>
-	<groupId>com.ctrip.framework.apollo</groupId>
-	<artifactId>apollo-client</artifactId>
-	<version>1.2.0</version>
-</dependency>
-
-<dependency>
-	<groupId>org.apache.commons</groupId>
-	<artifactId>commons-lang3</artifactId>
-</dependency>
-```
