@@ -1,5 +1,6 @@
 package com.lori.apollodemo.config;
 
+
 import com.ctrip.framework.apollo.model.ConfigChangeEvent;
 import com.ctrip.framework.apollo.spring.annotation.ApolloConfigChangeListener;
 import org.apache.commons.lang3.builder.ToStringBuilder;
