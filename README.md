@@ -6,7 +6,7 @@
 * 启动类中加注解：@EnableApolloConfig
 
 * 配置：
-···properties
+```properties
 server.port=8080
 
 app.id=apollo-demo
@@ -16,3 +16,4 @@ apollo.meta=http://192.168.245.128:8080
 apollo.bootstrap.enabled = true
 
 apollo.bootstrap.namespaces = application
+```
