@@ -21,13 +21,13 @@ apollo.bootstrap.namespaces = application
 * maven配置
 ```xml
 <dependency>
-			<groupId>com.ctrip.framework.apollo</groupId>
-			<artifactId>apollo-client</artifactId>
-			<version>1.2.0</version>
-		</dependency>
+	<groupId>com.ctrip.framework.apollo</groupId>
+	<artifactId>apollo-client</artifactId>
+	<version>1.2.0</version>
+</dependency>
 
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-		</dependency>
+<dependency>
+	<groupId>org.apache.commons</groupId>
+	<artifactId>commons-lang3</artifactId>
+</dependency>
 ```
